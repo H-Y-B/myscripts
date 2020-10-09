@@ -1,6 +1,11 @@
 # myscripts
 
 
+### linux的命令行解析参数之getopt_long函数
+
+ref link:  [gAndyCong : 浅谈linux的命令行解析参数之getopt_long函数](https://blog.csdn.net/qq_33850438/article/details/80172275)
+
+
 ### 字符串查找
 
 * quary.py \ quary-output-file
