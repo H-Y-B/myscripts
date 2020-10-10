@@ -21,6 +21,10 @@ optParser.add_option("-v","--vison", action = "store_false",                 des
 #         "string"
 #         "float"
 #
+#dest:         可以决定解析后,取值时的属性名, 尤其适于有多个等价参数. 不指定时就是选项不加-的字符串.
+#
+#
+
 #default: True/False
 #         "intermediate"
 #

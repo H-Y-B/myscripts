@@ -1,10 +1,14 @@
 # myscripts
 
 
-### linux的命令行解析参数之getopt_long函数
+### linux的命令行解析参数etopt_long函数
 
 ref link:  [gAndyCong : 浅谈linux的命令行解析参数之getopt_long函数](https://blog.csdn.net/qq_33850438/article/details/80172275)
 
+
+### python 命令行解析参数之optparse
+
+ref linl:  [6.21.3.4 Standard option actions](https://docs.python.org/2.4/lib/optparse-standard-option-actions.html)
 
 ### 字符串查找
 
