@@ -1,0 +1,19 @@
+{
+    "name": "pengjunlee",
+    "age": 32,
+    "vip": true,
+    "address": {
+        "province": "GuangDong",
+        "city": "ShenZhen"
+    },
+    "list":[
+	{
+		"name":"name1",
+		"age":1
+	},
+	{
+		"name":"name2",
+		"age":3
+	} 
+    ]
+}
