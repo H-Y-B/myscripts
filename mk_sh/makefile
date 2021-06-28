@@ -19,3 +19,24 @@ main:
 	@echo $(a)
 	@echo $(b)
 	@echo $(c)
+
+
+
+C_FILE = $(shell find ./ -name '*.c')
+H_FILE = $(shell find ./ -name '*.h')
+BUILD_DIR = ./build
+O_FILE = $(BUILD_DIR)/hello
+
+$(O_FILE): $(C_FILE) $(H_FILE)
+	mkdir -p $(@D)
+	gcc $(C_FILE) -o $(O_FILE)	
+	echo $(@)   #  build/hello
+	echo $(@D)  #  build
+	echo $(@F)  #  hello
+	echo $^ 
+	echo $< 
+
+hello:$(O_FILE)
+
+clean:
+	rm -rf $(BUILD_DIR)
